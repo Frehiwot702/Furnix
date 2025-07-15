@@ -6,8 +6,8 @@ const Signin = () => {
     <div className='text-center'>
       <div className='p-8'>
 
-        <div className='rounded-lg flex mx-auto'>
-            <div className='w-1/2 relative'>
+        <div className='rounded-lg md:flex mx-auto'>
+            <div className='md:w-1/2 relative'>
               <div className='absolute p-10 text-start space-y-2 text-white'>
               
                   <Link
@@ -17,10 +17,10 @@ const Signin = () => {
                     <p className='text-4xl font-bold'>The question of what you want to own is actually the question of how you want to live your life.</p>
                   <h3></h3>
               </div>
-              <img src='./chair2.jpg' className='h-screen w-full rounded-3xl'/>
+              <img src='./chair2.jpg' className='h-screen w-full rounded-3xl object-cover'/>
               
             </div>
-            <div className='m-auto space-y-3 w-1/2'>
+            <div className='m-auto space-y-3 md:w-1/2'>
               <h3 className='text-7xl font-bold font-dancing'>Sign In</h3>
               <h3>Welcome back!</h3>
               <form
